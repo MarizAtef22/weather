@@ -1,0 +1,103 @@
+
+nav{
+    background-color: #1E202B;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #009AB6;
+}
+.navbar-nav .nav-link.active{
+    color: white;
+}
+.navbar-nav .nav-link.active:hover{
+    color: #009AB6;
+}
+.navbar-toggler {
+    background-color: #009AB6;
+}
+
+body{
+    background-image: url(../images/banner.png);
+    background-size: 100% 100%;
+
+}
+
+.form_button{
+    width: 100px;
+    height: 50px;
+}
+.form_input{
+    background-color: #1E202B;
+    /* color: white; */
+}
+
+.form-control:focus{
+    background-color: #1E202B;
+
+}
+.form_input::placeholder {
+  color: #757575;
+    opacity: 1; 
+  }
+  .dates{
+    background-color: #2D303D;
+  }
+  .degree h2{
+    font-size: 70px;
+  }
+  .weather p{
+    color:#009AB6 ;
+  }
+
+  .today_data {
+    background-color: #323544;
+  }
+  .weather_icon{
+    color: #767880;
+  }
+
+  .today{
+    background-color: #222530;
+  }
+
+  .header{
+    background-color: #222530;
+  }
+  .header p{
+    color: gray;
+  }
+  .second_weather{
+    background-color: #262936;
+  }
+  footer{
+    background-color: #262936;
+  }
+  .footer_icon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+   color: #009AB6; 
+   transition: all 0.5s ;
+   background-color: #1E202B;
+  }
+
+  .footer_icon a{
+    transition: all 0.5s;
+  }
+  .footer_icon:hover{
+    background-color:#009AB6 ;
+  
+  }
+  .footer_icon:hover a{
+ color: white;
+  
+  }
+
+
+
+  body{
+    background-color: rgb(red, green, blue);
+  }
